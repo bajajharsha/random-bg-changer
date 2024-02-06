@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    background: wheat;
+}
+
+main {
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+/*
+=============== 
+Nav
+===============
+*/
+nav {
+    background: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-center h4 {
+    margin-bottom: 0;
+    /* color: var(--clr-primary-5); */
+    text-align: center;
+}
+
+
+
+/*
+=============== 
+Container
+===============
+*/
+main {
+    /* height: 100vh; */
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    text-align: center;
+}
+
+.container h2 {
+    background: black;
+    color: white;
+    padding: 20px;
+    border-radius: 6px;
+    margin-bottom: 30px;
+}
+
+.color-text {
+    color: wheat;
+}
+
+.btn-click {
+    background: transparent;
+    color: black;
+    font-weight: 700;
+    border: 2px solid black;
+    cursor: pointer;
+    border-radius: 3px;
+    font-size: 20px;
+    padding: 15px 35px;
+}
+
+.btn-click:hover {
+    color: white;
+    background: black
+}
